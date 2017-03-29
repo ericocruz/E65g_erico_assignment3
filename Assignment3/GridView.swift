@@ -21,7 +21,7 @@ import UIKit
     private let paragraph = 20 // The distance from left and top board of view
     private var circleSize = 0.0 // size of one circle
     private var lastGraphPoint = 0.0 // The last
-    var grid:Grid? // instance of grid
+    var grid:Grid? // instance of grid 
     
     private var countInLine = 0 // the count of circles in one line
 
