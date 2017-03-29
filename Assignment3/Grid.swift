@@ -23,7 +23,7 @@ public func positionSequence (from: Position, to: Position) -> PositionSequence 
 }
 
 public enum CellState: String { // added String type
-    case alive = "Alive" //Give the enum a raw type of String
+    case alive = "Alive" //Give the enum a raw type of Strings
     case empty = "Empty" //Give the enum a raw type of String
     case born = "Born" //Give the enum a raw type of String
     case died = "Died" //Give the enum a raw type of String
